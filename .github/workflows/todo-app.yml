@@ -1,0 +1,10 @@
+name: todo-app-project
+on: push
+jobs: 
+ git-job: 
+   runs-on: ubuntu-latest
+   steps: 
+      - name: git-checkout
+        uses: action/checkout@v4.1.7
+         
+         
